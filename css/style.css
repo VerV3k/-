@@ -1,0 +1,150 @@
+* {
+    padding: auto 0;
+    /* margin: auto 0; */
+}
+
+.container {
+    /* width: 1240px; */
+    /* height: 1439px; */
+    background-color: #0a262e;
+    background-image: url('../img/bgc.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-size: contain; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.my-name {
+    width: 428.85px;
+    height: 57px;
+    background-image: url('../img/gradientName.png');
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.795);
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.my-description {
+    width: 428.85px;
+    height: 44px;
+    background-image: url('../img/myDescr.png');
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.904);
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #1b2f4b;
+}
+
+.hr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.description-te {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+main {
+    width: 594px;
+    height: 280px;
+    background-image: url('../img/mySkill.png');
+    
+    /* padding-bottom: 15px; */
+    /* border-bottom: 3px solid #1b2f4b; */
+}
+
+.border {
+    width: 594px;
+    height: 4px;
+    background-image: url('../img/border.png');
+}
+
+aside {
+    width: 594px;
+    height: 216px;
+    background-image: url('../img/iLearn.png');
+}
+
+
+.slider-container {
+    position: relative;
+    width: 590px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 606px;
+    /* Ширина каждого слайда */
+}
+
+.slide img {
+    width: 590px;
+    height: auto;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.auto-slide-button {
+    margin-top: 10px;
+}
+
+.my-project{
+    margin-bottom: 20px;
+    width: 594px;
+    height: 43px;
+    background-image: url('../img/myProject.png');
+}
+
+footer{
+    padding-bottom: 150px;
+}
